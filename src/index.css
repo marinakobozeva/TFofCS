@@ -1,0 +1,68 @@
+.page {
+  margin: 0;
+  background-image: url(./images/page_back.jpg);
+  background-size: cover;
+}
+
+.page__container {
+  width: 80%;
+  height: 80%;
+  padding: 20px 20px;
+  margin: 50px auto;
+  border: 3px solid rgb(92, 132, 195);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, .9);
+  display: flex;
+  flex-direction: column;
+}
+
+.page__title {
+  font-family: "Gill Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 auto;
+  padding: 0;
+  color: rgb(218, 59, 120);
+}
+
+.form__text {
+  width: calc(100% - 2 * 20px - 2 * 3px);
+  margin-top: 10px;
+  padding: 20px;
+  border: 2px solid rgb(105, 197, 229);
+  border-radius: 20px;
+  font-family: "Gill Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+/* .form__buttons {
+
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+} */
+
+.form__button {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  border: 2px solid rgb(105, 197, 229);
+  border-radius: 20px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, .7);
+  transition: transform;
+}
+
+.form__button:hover {
+  transform: scale(1.2, 1.2);
+  background-color: rgb(92, 132, 195);
+}

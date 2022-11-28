@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Дополнительные задания</title>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.1/chart.min.js"
+    integrity="sha512-tQYZBKe34uzoeOjY9jr3MX7R/mo7n25vnqbnrkskGr4D6YOoPYSpyafUAzQVjV6xAozAqUFIEFsCO4z8mnVBXA=="
+    crossorigin="anonymous"
+    type="module"
+    referrerpolicy="no-referrer">
+  </script>
+</head>
+<body class="page">
+  <div class="page__container">
+    <p class="page__title">Дополнительные задания</p>
+    <form class="page__form">
+      <textarea
+        name="userText"
+        maxlength="255"
+        class="form__text"
+        rows="3"
+        cols="50"
+        placeholder="Введите текст до 255 символов"
+        autofocus></textarea>
+      <button class="form__button">Обработать</button>
+      <!-- <div class="form__buttons">
+        <button class="form__button form__button_type_one">Задание 1</button>
+        <button class="form__button form__button_type_two">Задание 2</button>
+        <button class="form__button form__button_type_three">Задание 3</button>
+        <button class="form__button form__button_type_four">Задание 4</button>
+      </div> -->
+    </form>
+
+    <div>
+      <canvas class="canvas"></canvas>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
